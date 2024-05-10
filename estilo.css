@@ -1,4 +1,97 @@
-p{
-    font-style: inherit
+ body{
+    background-color: beige;
+ }
+#sm{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-size: larger;
+    color: rgb(219, 0, 190)
+    
+}
+#dr{
+  
+    font-weight: unset;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    color: brown;
+}
+#tr{
+ 
+    font-style: unset;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+    color: rgb(162, 0, 255);
+}
+.r{
+   border-style: dashed;
+    color: rgb(149, 0, 255);
+    background-color: black;
+
+}
+.r:hover{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition:1s ;
+}
+body{
+ animation: piscapisca 1s
+ infinite
+}
+#outro{
+  width: 100px;
+  height: 100px;
+  background: chartreuse;
+  position: relative;
+  animation: nymove 2s infinite;
+}
+
+@keyframes mymove{
+    0%{top: 0px; left: 0px; background: ;}
+}
+@keyframes piscapisca{
+    0%{
+        background-color: aqua;
+    }
+    50%{
+        background-color: blueviolet;
+    }
+    100%{
+        background-color: chartreuse;
+    }
+    150%{
+        background-color: brown;
+    }
+    200%{
+        background-color: blue;
+    }
+    250%{
+        background-color: rgb(162, 0, 255);
+    }
+    300%{
+        background-color: darkgoldenrod;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
