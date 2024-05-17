@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+  
+    color: rgb(255, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 9px 9px 9px #2bff00;
+}
+.caixa{
+    border: solid #66ff00;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 4px 4px 4px 2px #f50000;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #979797;
+}
+div{
+   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    color: #ff0000;
+}
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    box-shadow: 2px 2px 2px #2bff00;
+}
+h3{
+    color: rgb(255, 0, 0);
+}
+span{
+    color: rgb(0, 255, 13);
+    text-shadow: 2px 2px 4px #3700ff;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #0f1923;   
+}
+li{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+a{
+    text-align: center;
+    color: #fff;
+}
+button{
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(0, 119, 255);
+    color: white;
+    font-weight: bold;
+    margin-left: 30px;
+}
