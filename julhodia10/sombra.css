@@ -1,0 +1,39 @@
+body{
+    background-image: url(https://assets.weforum.org/community/image/t-WX7StbbVoDoyUtb2e7QPbdGXTvtvgeb3Lcs9QFlEg.jpeg);
+    
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    width: 940px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 auto;
+}
+strong{
+    color: rgb(136, 136, 136);
+}
+.d{
+    color: rgb(255, 0, 0);
+}
+h3{
+    color: rgb(0, 0, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 228px;
+    padding: 5px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.b{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: small;
+  font-style: italic;
+    color: aliceblue;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 100px;
+    background-color: rgb(44, 43, 43);
+    width: 228px;
+    padding: 6px;
+    text-transform: uppercase;
+    text-align: center;
+
+}
