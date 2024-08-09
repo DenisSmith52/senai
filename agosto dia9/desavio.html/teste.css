@@ -1,0 +1,23 @@
+h3{
+    text-align: center;
+}
+li{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+a{
+    text-align: center;
+    color: #ee1414;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #0f1923;   
+}
+body{
+    align-items: center;
+}
