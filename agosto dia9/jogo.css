@@ -1,0 +1,12 @@
+body{
+    overflow: hidden;
+}
+#elemento{
+   position: relative;
+    left: 0;
+    top: 0;
+    transition: left 0.9s ease;
+}
+.invertido{
+    transform: scaleX(-1);
+}
