@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Diplomata&display=swap');
+body{
+    font-family: "Diplomata", serif;
+  font-weight: 400;
+  font-style: normal;
+  background-image: url(https://i.pinimg.com/originals/6e/38/74/6e387428ae3ff1aeb54f8d3c73106671.jpg);
+}
+h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 9px 9px 9px rgb(255, 0, 0);
+}
+form{
+    display: flex;
+    width: 600px;
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 16px;
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 5px 5px rgb(255, 0, 0);
+}
+input{
+    padding:  14px  8px;
+    border-radius: 6px;
+    border: 1px solid rgb(209, 0, 0);
+}
+button{
+    padding: 10px 8px;
+    border: nome;
+    cursor: pointer;
+    border-radius: 6px;
+    background-color: rgb(199, 11, 11);
+    color: rgb(44, 38, 38);
+}
+button:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
