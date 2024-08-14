@@ -15,9 +15,6 @@ if(nome == "" || sobrenome == "" || telefone == "" || idade == ""){
     alert('meu nome é ' + nome)
     alert('meu sobrenome é' + sobrenome)
     alert('meu telefone é' + telefone)
-    alert('atenção você é menor d idade por isso não pode fazer o cadastro' + idade)
+    
 
-}
-if( idade < 18){
-    alert(' atenção você é menor d idade por isso não pode fazer o cadastro')
 }
