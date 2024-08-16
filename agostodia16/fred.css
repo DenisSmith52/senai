@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+header{
+    display: flex;
+ justify-content: space-around;
+ align-items: center;
+ background-color: rgb(0, 0, 0);
+ padding: 20px 60px;
+}
+body{
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu ul{
+    display: flex;
+    gap: 33px;
+}
+.menu ul li a{
+    color: aliceblue;
+}
+
+.menu ul li a:hover{
+    color: rgb(0, 136, 255);
+}
+.menucelular{
+    
+}
+@media(max-width: 767px){
+    header{    
+        background-color: blueviolet;
+    }
+ .menu{
+    display: none;
+
+ }
+ .menucelular .linha{
+    width: 26px;
+    height: 3px;
+    background-color: rgb(182, 0, 0);
+    margin: 6px 0;
+
+ }
+ .menu ul{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+
+ 
+}
+}
