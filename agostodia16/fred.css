@@ -26,11 +26,15 @@ body{
     color: rgb(0, 136, 255);
 }
 .menucelular{
-    
+
 }
 @media(max-width: 767px){
     header{    
         background-color: blueviolet;
+    }
+    .menucelular{
+        display: block;
+        cursor:pointer ;
     }
  .menu{
     display: none;
