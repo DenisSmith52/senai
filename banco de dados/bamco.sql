@@ -23,3 +23,30 @@ ALTER TABLE alunos DROP COLUMN nome_pessoal;
 /* adicionando campos após tabela criada*/
 ALTER TABLE Alunos ADD descriacao VARCHAR(255);
 
+
+
+
+/*comando para atualizar campos de bamco de dados*/
+UPDATE clientes 
+SET nome = 'ciente vip'
+WHERE idade > 30;
+
+
+
+/* comando para deletar campo da tabela*/
+DELETE FROM #NOME DA TABELA WHERE id = 1;
+
+-- SELECT nome, emaiL FROM clientes WHERE idade > 22
+
+
+
+
+
+
+
+
+
+
+
+
+
