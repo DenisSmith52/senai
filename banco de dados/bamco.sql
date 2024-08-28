@@ -31,6 +31,10 @@ UPDATE clientes
 SET nome = 'ciente vip'
 WHERE idade > 30;
 
+/*o operador not é usado para negar uma condição,retornando registros
+que não adendem a essa condição*/
+SELECT * #nome da tabela# WHERE NOT nome = "teste2"
+
 
 
 /* comando para deletar campo da tabela*/
@@ -38,7 +42,8 @@ DELETE FROM #NOME DA TABELA WHERE id = 1;
 
 -- SELECT nome, emaiL FROM clientes WHERE idade > 22
 
-
+/*COMANDO DE ORDEN DECRESENTE E CRESENTE*/
+SELECT nome FROM usuario ORDER BY nome DESC;
 
 
 
