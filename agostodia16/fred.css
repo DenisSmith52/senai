@@ -10,6 +10,9 @@ header{
  background-color: rgb(0, 0, 0);
  padding: 20px 60px;
 }
+nav{
+    font-size: 22px;
+}
 body{
     color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
@@ -32,14 +35,33 @@ body{
     header{    
         background-color: blueviolet;
     }
-    .menucelular{
-        display: block;
-        cursor:pointer ;
+    .menu.adicionar_Classe_Ao_clicar{
+        height: 400px;
+        transition: 1s;
     }
- .menu{
-    display: none;
+    
+    .menu{
+        height: 0px;
+        position: absolute;
+        top: 77px;
+        left: 0;
+        width: 100%;
+        background-color: rgb(100, 56, 170);
+        transition: 1.5s;
+    }
+ .menu ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 50px;
+    margin: 70px auto;
 
  }
+.menu-celular{
+        display: block;
+        
+    }
+
  .menucelular .linha{
     width: 26px;
     height: 3px;
@@ -47,11 +69,5 @@ body{
     margin: 6px 0;
 
  }
- .menu ul{
-    display: flex;
-    flex-direction: column;
-    height: 400px;
-
  
-}
 }
