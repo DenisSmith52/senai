@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blueviolet;
+}
+
+form {
+    width: 30%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin: 62px auto;
+}
+
+input {
+    padding: 9px;
+}
